@@ -1,0 +1,22 @@
+{
+  "name": "tech-test-typescript",
+  "private": true,
+  "version": "1.0.0",
+  "description": "3D Group technical assessment - TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "code": "npx ts-node src/index.ts",
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "typecheck": "npm run tsc"
+  },
+  "keywords": [],
+  "author": "3D Group",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
